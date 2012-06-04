@@ -8,5 +8,5 @@ for ( i=1; i<=sep_size; i++ ) {
     sep = '&nbsp' + sep + '&nbsp';
 }
 
-document.write( abt.link( abt ), sep, ctc.link( ctc ) )
+document.write( abt.link( abt ), sep, ctc.link( "/img/contact.png" ) )
 
