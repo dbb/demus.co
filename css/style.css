@@ -1,7 +1,5 @@
 /* a dark style */
 
-
-
 body {
     background:     #202020;
     border-color:   #cc5f29;
@@ -25,80 +23,6 @@ a:visited {color:#a76bb3;}
 a:hover {color:#cc2944;}
 a:active {color:#ffffff;}
 
-.clearfix:after, nav:after, nav .inner:after, nav footer:after, nav .inner ul:after, nav footer ul:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
-.clearfix, nav, nav .inner, nav footer, nav .inner ul, nav footer ul {
-  display: inline-block;
-}
-
-/* Hide from IE Mac \*/
-.clearfix, nav, nav .inner, nav footer, nav .inner ul, nav footer ul {
-  display: block;
-}
-
-/* End hide from IE Mac */
-.inner, footer {
-  margin: 0 auto;
-  width: 800px;
-}
-
-.menu, nav .inner ul, nav footer ul, .menu li, nav .inner ul li, nav footer ul li {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-.menu li, nav .inner ul li, nav footer ul li, .menu li li, nav .inner ul li li, nav footer ul li li {
-  float: left;
-}
-
-/* Nav *****************************************************/
-nav {
-    background: -moz-linear-gradient(top,  #2e2e2e,  #141414);
-    background: -webkit-gradient(linear, left top, left bottom, from(#2e2e2e), to(#141414));
-  height: 43px;
-  position: relative;
-  z-index: 100;
-}
-nav .inner, nav footer {
-  -moz-box-shadow: #292929 1px 0 0;
-  -webkit-box-shadow: #292929 1px 0 0;
-  -o-box-shadow: #292929 1px 0 0;
-  box-shadow: #292929 1px 0 0;
-  border-right: 1px solid #101010;
-}
-nav .inner ul, nav footer ul {
-  float: right;
-}
-nav .inner ul a, nav footer ul a {
-    background: -moz-linear-gradient(top,  #2e2e2e,  #141414);
-    background: -webkit-gradient(linear, left top, left bottom, from(#2e2e2e), to(#141414));
-  -moz-box-shadow: #292929 -1px 0 0;
-  -webkit-box-shadow: #292929 -1px 0 0;
-  -o-box-shadow: #292929 -1px 0 0;
-  box-shadow: #292929 -1px 0 0;
-  border-left: 1px solid #101010;
-  display: block;
-  float: left;
-  padding: 0 20px;
-  height: 40px;
-  font-size: 14px;
-  line-height: 40px;
-  color: #b7ab8a;
-  text-shadow: 0 -1px 0 black;
-}
-nav .inner ul a:hover, nav footer ul a:hover {
-  color: #efb55f;
-    background: -moz-linear-gradient(top,  #3b3b3b,  #2e2e2e);
-    background: -webkit-gradient(linear, left top, left bottom, from(#3b3b3b), to(#2e2e2e));
-}
-
-/* end Nav *************************************************/
 
 /* code ***************************************************/
 code {
@@ -208,11 +132,11 @@ ul, ol {
     background:     #202020;
 }
 
-/* `Footer
+/* Footer
 -----------------------------------------------------------------------------*/
 footer {
   display: block;
-  padding: 10px 0 60px;
+  padding: 10px 5px 5px 200px;
   color: #ad8f59;
   text-align: center;
 }
