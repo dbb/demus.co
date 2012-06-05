@@ -16,7 +16,7 @@ for ( i=1; i<=sep_size; i++ ) {
     if (!d.getElementById(id)) {
         js=d.createElement(s);
         js.id=id;
-        js.src="https://platform.twitter.com/widgets.js";
+        js.src="//platform.twitter.com/widgets.js";
         fjs.parentNode.insertBefore(js,fjs);
     }
 
