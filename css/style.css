@@ -102,7 +102,7 @@ em {
     background:         #202020;
     font-family:        inherit;
     font-style:         italic;
-    text-decoration:    underline;
+    text-decoration:    none;
 }
 
 
@@ -135,10 +135,14 @@ ul, ol {
 /* Footer
 -----------------------------------------------------------------------------*/
 footer {
+  background: #131313;
+  color: #ad8f59;
   display: block;
   padding: 200px 5px 10px 5px;
-  color: #ad8f59;
   text-align: center;
+}
+footer ul {
+  background: #ff6600;
 }
 footer address {
   font-style: normal;
@@ -151,3 +155,6 @@ div.logo {
     text-align: center;
     margin: 5% 5%;
 }
+
+.explorer{ 
+  font-family:verdana,arial,helvetica; font-size:8pt; font-weight:normal; text-decoration:none; color:#000000; background:#B5D0FF; cursor:hand; width:150px; height:30px; border:1 solid #A6C0ED} .explorer_over{font-family:verdana,arial,helvetica; font-size:8pt; font-weight:normal; text-decoration:none; color:#000000; background:#A7C0EB; cursor:hand; width:150px; height:30px; border-right:1 solid #5C6980; border-bottom:1 solid #5C6980; border-left:1 solid #B8D3FF; border-top:1 solid #B8D3FF} .explorer_down{font-family:verdana,arial, helvetica; font-size:8pt; font-weight:normal; text-decoration:none; color:#000000; background:#A7C0EB; cursor:hand; width:150px; height:30px; border-left:1 solid #5C6980; border-top:1 solid #5C6980; border-right:1 solid #B8D3FF; border-bottom:1 solid #B8D3FF} .explorer_active{font-family:verdana,arial,helvetica; font-size:8pt; font-weight:normal; text-decoration:none; color:#000000; background:#FFFFFF; cursor:hand; width:150px; height:30px} .menu{font-family:verdana,arial,helvetica; font-size:8pt; font-weight:normal; text-decoration:none; color:#000000}
