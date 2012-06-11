@@ -140,6 +140,7 @@ footer {
   display: block;
  /*  padding: 200px 5px 10px 5px; */
   text-align: center;
+  margin: auto;
 }
 footer ul {
   background: #ff6600;
